@@ -6,7 +6,7 @@
   ],
   "description": "Elegant Themes' Elegant Icon font as a bower package",
   "main": [
-  "./style.css",
+  "./css/style.css",
   "./fonts/*"
   ],
   "keywords": [
