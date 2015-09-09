@@ -1,12 +1,14 @@
+$ei-font-path: "../fonts" !default;
+
 @font-face {
-	font-family: 'ElegantIcons';
-	src:url('../fonts/ElegantIcons.eot');
-	src:url('../fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/ElegantIcons.woff') format('woff'),
-		url('../fonts/ElegantIcons.ttf') format('truetype'),
-		url('../fonts/ElegantIcons.svg#ElegantIcons') format('svg');
-	font-weight: normal;
-	font-style: normal;
+ font-family: 'ElegantIcons';
+ src:url('#{$ei-font-path}/ElegantIcons.eot');
+ src:url('#{$ei-font-path}/ElegantIcons.eot?#iefix') format('embedded-opentype'),
+ url('#{$ei-font-path}/ElegantIcons.woff') format('woff'),
+ url('#{$ei-font-path}/ElegantIcons.ttf') format('truetype'),
+ url('#{$ei-font-path}/ElegantIcons.svg#ElegantIcons') format('svg');
+ font-weight: normal;
+ font-style: normal;
 }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
